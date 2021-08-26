@@ -10,5 +10,6 @@ spec:
     storage: 10Gi
     accessModes:
       - ReadWriteOnce
-    hostpath:
-      path: "/mnt/data"
+    resources:
+      requests:
+         storage: 3Gi
